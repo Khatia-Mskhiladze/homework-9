@@ -9,9 +9,7 @@
 	padding: 0px 34px 304px 147px;
 	background-image: url('../images/background_img1.png');
 	background-repeat: no-repeat;
-	background-position: cover;
 }
-
 /* header  */
 header{
 	width: 100%;
@@ -28,11 +26,9 @@ ul{
 	gap: 58px;
 	font-size: 36px;
 	color: #ffffff;
-	
-	
 }
 .section1_text{
-	width: 1040px;
+	width: 80%;
 	color:#C0B4B4;
 	font-size: 64px;
     font-weight: 700;
@@ -46,4 +42,34 @@ li{
 li:hover{
 	border: 5px solid #ffffff;
 	cursor: pointer;
+}
+
+/* <!-- section2 --> */
+
+.section2{
+	width: 100%;
+	padding: 90px 145px 140px 145px;
+	background-color: #393838;
+}
+h1{
+	font-size: 64px;
+	font-weight: 400px;
+	color: #FFFFFF;
+	margin-bottom: 239px;
+	display: flex;
+	justify-content: center;
+}
+.cards{
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	gap: 68px;
+}
+.card{
+	width: 30%;
+	height: 522px;
+}
+.card:hover{
+	cursor: pointer;
+	box-shadow: 2px 20px 30px black;
 }
