@@ -3,42 +3,47 @@
 	width: 100%;
 	margin: 0 auto;
 }
-
 /* section1  */
 .section1{
 	width: 100%;
-	height: 2414px;
+	padding: 0px 34px 304px 147px;
 	background-image: url('../images/background_img1.png');
 	background-repeat: no-repeat;
-
-
+	background-position: cover;
 }
 
 /* header  */
 header{
 	width: 100%;
-	padding: 52px 34px 52px 147px;
 	/* border: 5px solid red; */
+	margin-bottom: 1716px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
 }
 ul{
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	gap: 58px;
 	font-size: 36px;
 	color: #ffffff;
+	
+	
 }
-
-
-p{
-	width: 100%;
-	padding: 1716px 200px 304px 200px;
+.section1_text{
+	width: 1040px;
 	color:#C0B4B4;
 	font-size: 64px;
     font-weight: 700;
-	align-items: center;
-
+	text-align: center;
+}
+li{
+	transition-property: all;
+	transition-duration: .5s;
+	transition-delay: .1s;
+}
+li:hover{
+	border: 5px solid #ffffff;
+	cursor: pointer;
 }
